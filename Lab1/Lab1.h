@@ -10,3 +10,7 @@
 #include <ppl.h>
 #include <filesystem>
 #include <iostream>
+#include "adImgPro.h"
+#include <cstdlib>
+#include <mutex>
+#include <thread>
