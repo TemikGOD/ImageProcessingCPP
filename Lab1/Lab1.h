@@ -10,3 +10,4 @@
 #include <ppl.h>
 #include <filesystem>
 #include <iostream>
+#include "adImgPro.h"

@@ -3,7 +3,7 @@
 #
 
 # Add source to this project's executable.
-add_executable (Lab1 "Lab1.cpp" "Lab1.h")
+add_executable (Lab1 "Lab1.cpp" "Lab1.h" "adImgPro.h")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET Lab1 PROPERTY CXX_STANDARD 20)
