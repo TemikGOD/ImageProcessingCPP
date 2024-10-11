@@ -30,7 +30,7 @@ cv::Mat ad::ImgPro::imageHistogramGray(const cv::Mat& inputImage) const
 	bool uniform = true, accumulate = false;
 	cv::Mat histogram;
 	cv::calcHist(&inputImage, 1, 0, cv::Mat(), histogram, 1, &histSize, histRange, uniform, accumulate);
-	int hist_w = 1920, hist_h = 1080;
+	int hist_w = 1280, hist_h = 720;
 	int bin_w = cvRound((double)hist_w / histSize);
 	cv::Mat histImage(hist_h, hist_w, CV_8UC3, cv::Scalar(255, 255, 255));
 	cv::normalize(histogram, histogram, 0, histImage.rows, cv::NORM_MINMAX, -1, cv::Mat());
